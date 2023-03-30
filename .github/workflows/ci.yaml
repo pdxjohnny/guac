@@ -19,9 +19,11 @@ on:
   push:
     branches:
       - main
+      - activitypub
   pull_request:
     branches:
       - main
+      - activitypub
     types:
       - opened
       - synchronize
